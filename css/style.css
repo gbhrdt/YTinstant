@@ -19,7 +19,7 @@ input {
 	left: 50%;
 	margin-left: -25%;
 	position: absolute;
-	background: no-repeat url(search.png) 0 -4px, #eee;
+	background: no-repeat url("../img/search.png") 0 -4px, #eee;
 	background-size: auto;
 	color: #333;
 	z-index: 999;
