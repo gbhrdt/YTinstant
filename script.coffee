@@ -49,22 +49,21 @@ $ ->
         allowFullScreen: "true"
         wmode: "opaque"
       swfobject.embedSWF("http://www.youtube.com/v/" + videoid + 
-      "?enablejsapi=1" +
-      "&playerapiid=ytplayer" +
-      "&version=3" +
-      "&disablekb=1" +
-      "&autoplay=1" +
-      "&rel=0" +
-      "&showinfo=0" +
-      "&theme=light" +
-      "&loop=1" +
-      "&playlist=" + videoid + 
-      "&wmode=transparency" +
-      "&iv_load_policy=3" +
-      "&vq=hd1080", 
-      "ytplayer", 
-      "100%", 
-      "100%", 
+      "?enablejsapi=1" + # enable js api
+      "&playerapiid=ytplayer" + # div id
+      "&version=3" + # latest api version
+      "&disablekb=1" + # disable keyboard shortcuts
+      "&autoplay=1" + # automatically start video
+      "&rel=0" + # hide related videos
+      "&showinfo=0" + # hide video info
+      "&theme=light" + # looks cooler :D
+      "&loop=1" + # loop video
+      "&playlist=" + videoid + # needed for loop to work
+      "&iv_load_policy=3" + # hide video annonations
+      "&vq=hd1080", # play in highest quality
+      "ytplayer", # div id
+      "100%", # width
+      "100%", # height
       "8", # flash player version
       null, 
       null, 
