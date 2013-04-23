@@ -11,7 +11,8 @@ Live Demo: http://maino.in/ytinstant/
 * Multi language support
 
 **Build it**
-run `./build.sh`
+
+	./build.sh
 
 **TODO:**
 * add loading gif before loading video
