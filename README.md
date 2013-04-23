@@ -11,4 +11,4 @@ Live Demo: http://maino.in/ytinstant/
 * Multi language support
 
 **TODO:**
-* add loading gif before loading video
+* add loading gif before loading video + add jquery animations
