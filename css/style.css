@@ -60,6 +60,13 @@ input:-moz-placeholder, textarea:-moz-placeholder {
 	z-index: 1;
 }
 
+#ytplayer p {
+	padding: 20px;
+	text-align: center;
+	font-size: 3em;
+	font-family: sans-serif;
+}
+
 div.jGrowl div.light {
 	background-color: #eee;
 	color: #111;
