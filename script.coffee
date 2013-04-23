@@ -70,7 +70,7 @@ $ ->
       params, 
       atts,
       (e) ->
-        $("#ytplayer").html "Error: You need Adobe Flash Player!"  unless e.success
+        $("#ytplayer p").html "Error: You need Adobe Flash Player!"  unless e.success
       );
 
   # check if hash given
