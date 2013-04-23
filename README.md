@@ -10,6 +10,9 @@ Live Demo: http://maino.in/ytinstant/
 * uses the full browser window
 * Multi language support
 
+**Build it**
+run `./build.sh`
+
 **TODO:**
 * add loading gif before loading video
 * add nice jquery animations
