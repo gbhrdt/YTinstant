@@ -1,8 +1,6 @@
 YTinstant
 =========
 
-Live Demo: http://maino.in/ytinstant/
-
 (inspired by Feross Aboukhadijeh's http://ytinstant.com/)
 
 **Features:**
